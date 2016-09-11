@@ -262,7 +262,7 @@ while true; do
     read -p "Do you want to remove temporary files in $TMP_DOWNLOAD directorie? [y|n|Y|N] " yn
     case $yn in
         [Yy] ) remove_downloaded; break;;
-        [Nn] ) print_message "Your files keep saved"; break;;
+        [Nn] ) print_message "Your downloaded files keep save in $TMP_DOWNLOAD directorie"; break;;
         * ) echo "Please enter y [for yes] or n [for no].";;
     esac
 done
