@@ -42,9 +42,9 @@
 - Java
 - Python Software Properties
 - PHP [Support PHP7]
-- Vagrant
+- [Vagrant](https://www.vagrantup.com)
 - [Git](https://git-scm.com)
-- GitKraken - 64bit [Git GUI]
+- [GitKraken](https://www.gitkraken.com) - 64bit [Git GUI]
 - [Composer](https://getcomposer.org)
 - [Node.js](https://nodejs.org)
 - [NPMJS](https://www.npmjs.com) [Global]
