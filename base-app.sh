@@ -187,6 +187,19 @@ fi
 ## Install from *.deb
 ##
 
+
+# handling download file
+exec_cmd_download () {
+    local DOWNLOAD_FILE="$1"
+
+    if [ -x /usr/bin/curl ]; then
+        curl -C - -O "$DOWNLOAD_FILE"
+    else
+        wget "$DOWNLOAD_FILE"
+    fi
+}
+
+
 download_64bit () {
     # Web Browser
     #   http://askubuntu.com/questions/250773/how-do-i-install-chromium-from-the-command-line
@@ -198,15 +211,15 @@ download_64bit () {
 
         Read More: http://askubuntu.com/questions/250773/how-do-i-install-chromium-from-the-command-line
     "
-    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -P $TMP_DOWNLOAD
+    exec_cmd_download "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 
     print_message "Downloading SublimeText3"
-    wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb -P $TMP_DOWNLOAD
+    exec_cmd_download "https://download.sublimetext.com/sublime-text_build-3114_amd64.deb"
 }
 
 download_32bit () {
     print_message "Downloading SublimeText3"
-    wget https://download.sublimetext.com/sublime-text_build-3114_i386.deb -P $TMP_DOWNLOAD
+    exec_cmd_download "https://download.sublimetext.com/sublime-text_build-3114_i386.deb"
 }
 
 remove_downloaded () {
