@@ -215,7 +215,6 @@ remove_downloaded () {
 }
 
 install_dpkg () {
-    local file=""
     for file in $TMP_DOWNLOAD/*.deb; do
         echo
         echo "## Running install \`dpkg -i $file\` (as root)"
@@ -223,6 +222,7 @@ install_dpkg () {
         sudo dpkg -i $file
         sudo apt-get install -y -f
     done
+    unset file
 }
 
 ## create a new folder
