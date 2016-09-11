@@ -28,13 +28,13 @@ $ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/set
 via curl
 
 ``` bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/base-app.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/base-app.sh)"
 ```
 
 via wget
 
 ``` bash
-$ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/base-app.sh -O -)"
+$ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/base-app.sh -O -)"
 ```
 
 
@@ -43,13 +43,13 @@ $ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/base-
 via curl
 
 ``` bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/programming-app.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/programming-app.sh)"
 ```
 
 via wget
 
 ``` bash
-$ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/programming-app.sh -O -)"
+$ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/programming-app.sh -O -)"
 ```
 
 
@@ -58,13 +58,13 @@ $ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/progr
 via curl
 
 ``` bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/virtualbox.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/virtualbox.sh)"
 ```
 
 via wget
 
 ``` bash
-$ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/virtualbox.sh -O -)"
+$ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/virtualbox.sh -O -)"
 ```
 
 
@@ -73,11 +73,11 @@ $ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/virtu
 via curl
 
 ``` bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/zshell.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/zshell.sh)"
 ```
 
 via wget
 
 ``` bash
-$ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/zshell.sh -O -)"
+$ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/zshell.sh -O -)"
 ```
