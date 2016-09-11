@@ -8,13 +8,13 @@ You can install this via the command-line with either `curl` or `wget`.
 via curl
 
 ``` bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/setup.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/iGuntur/installer/master/setup.sh)"
 ```
 
 via wget
 
 ``` bash
-$ sh -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/setup.sh -O -)"
+$ bash -c "$(wget https://raw.githubusercontent.com/iGuntur/installer/master/setup.sh -O -)"
 ```
 
 
