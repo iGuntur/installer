@@ -210,7 +210,7 @@ download_32bit () {
 }
 
 remove_downloaded () {
-    rm -rf $TMP_DOWNLOAD
+    rm -rf "$TMP_DOWNLOAD"
     print_message "$TMP_DOWNLOAD directorie has been removed !!!"
 }
 
