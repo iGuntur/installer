@@ -189,7 +189,12 @@ print_message \
     * ${green}Save to \`/usr/local/bin/composer\` (as root)${normal}
 "
 cd ~
-curl -sS https://getcomposer.org/installer | php
+if [ -x /usr/bin/curl ]; then
+    curl -fSL http://getcomposer.org/composer.phar -o composer.phar
+else
+    wget https://getcomposer.org/composer.phar
+fi
+
 sudo mv composer.phar /usr/local/bin/composer
 
 # npm install global package manager and stuff
