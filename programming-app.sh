@@ -264,7 +264,9 @@ mkdir -p $TMP_DOWNLOAD
 
 ## Download files
 print_message "Starting download package"
+cd "$TMP_DOWNLOAD"
 if [ "$ARCH" == "64bit" ]; then download_64bit; else download_32bit; fi
+cd ~
 
 print_message "Download succesfully"
 
