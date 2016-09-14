@@ -155,7 +155,7 @@ print_message \
     * ${green}php5-mcrypt${normal}
     * ${green}php5-mysql${normal}
 "
-sudo apt-get install -y php5 libapache2-mod-php5 php5-curl php5-gd php5-mcrypt php5-mysql
+sudo apt-get install -y php5.5 libapache2-mod-php5 php5-curl php5-gd php5-mcrypt php5-mysql
 
 # install php7.0 php7.0-fpm
 print_message \
