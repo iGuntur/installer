@@ -234,7 +234,6 @@ download_32bit () {
 
 
 install_dpkg () {
-    local file=""
     for file in $TMP_DOWNLOAD/*.deb; do
         echo
         echo "## Running install \`dpkg -i $file\` (as root)"
