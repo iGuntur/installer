@@ -242,6 +242,7 @@ install_dpkg () {
         sudo dpkg -i $file
         sudo apt-get install -y -f
     done
+    unset file
 }
 
 
