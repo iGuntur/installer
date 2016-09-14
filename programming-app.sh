@@ -54,6 +54,14 @@ print_message () {
 
 cd ~
 
+# checking architecture machine
+#    x86_64 => 64bit
+#    i686 | i386 => 32bit
+if [ "$ARCH" == "x86_64" ]; then
+    ARCH="64bit"
+else
+    ARCH="32bit"
+fi
 
 # update reposository
 print_message \
