@@ -54,17 +54,12 @@ print_message () {
 
 cd ~
 
-
-print_message "Checking your architecture machine"
-
 # checking architecture machine
 #    x86_64 => 64bit
 #    i686 | i386 => 32bit
 if [ "$ARCH" == "x86_64" ]; then
-    print_message "Your architecture machine is ${red}64bit"
     ARCH="64bit"
 else
-    print_message "Your architecture machine is ${red}32bit"
     ARCH="32bit"
 fi
 
