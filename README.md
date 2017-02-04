@@ -56,5 +56,5 @@
 
 
 ### Design App
-    - gimp image editor
-    - Inkscape
+- gimp image editor
+- Inkscape
