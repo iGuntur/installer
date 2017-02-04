@@ -53,3 +53,8 @@
 ### Shell
 
 - [ZShell](http://ohmyz.sh)
+
+
+### Design App
+    - gimp image editor
+    - Inkscape
